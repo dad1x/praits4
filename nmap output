@@ -1,0 +1,570 @@
+>>> nmap 10.10.10.0/24
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-06-01 16:22 CEST
+Nmap scan report for _gateway (10.10.10.1)
+Host is up (0.00029s latency).
+Not shown: 996 filtered ports
+PORT     STATE  SERVICE
+22/tcp   open   ssh
+80/tcp   open   http
+9000/tcp closed cslistener
+9001/tcp closed tor-orport
+
+Nmap scan report for 10.10.10.2
+Host is up (0.00054s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for 10.10.10.4
+Host is up (0.00050s latency).
+Not shown: 992 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+3001/tcp open  nessus
+3003/tcp open  cgms
+3005/tcp open  deslogin
+3006/tcp open  deslogind
+3007/tcp open  lotusmtap
+3011/tcp open  trusted-web
+3013/tcp open  gilatskysurfer
+
+Nmap scan report for 10.10.10.6
+Host is up (0.0011s latency).
+Not shown: 998 closed ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for 10.10.10.7
+Host is up (0.0013s latency).
+Not shown: 998 closed ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for 10.10.10.8
+Host is up (0.0014s latency).
+Not shown: 998 closed ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for 10.10.10.9
+Host is up (0.0014s latency).
+Not shown: 998 closed ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for 10.10.10.11
+Host is up (0.00084s latency).
+Not shown: 994 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+5666/tcp open  nrpe
+5900/tcp open  vnc
+9080/tcp open  glrpc
+
+Nmap scan report for 10.10.10.12
+Host is up (0.00081s latency).
+Not shown: 994 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+5666/tcp open  nrpe
+5900/tcp open  vnc
+9080/tcp open  glrpc
+
+Nmap scan report for 10.10.10.13
+Host is up (0.0011s latency).
+Not shown: 994 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+5666/tcp open  nrpe
+5900/tcp open  vnc
+9080/tcp open  glrpc
+
+Nmap scan report for 10.10.10.14
+Host is up (0.00095s latency).
+Not shown: 994 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+5666/tcp open  nrpe
+5900/tcp open  vnc
+9080/tcp open  glrpc
+
+Nmap scan report for 10.10.10.15
+Host is up (0.00083s latency).
+Not shown: 994 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+5666/tcp open  nrpe
+5900/tcp open  vnc
+9080/tcp open  glrpc
+
+Nmap scan report for 10.10.10.16
+Host is up (0.00083s latency).
+Not shown: 994 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+5666/tcp open  nrpe
+5900/tcp open  vnc
+9080/tcp open  glrpc
+
+Nmap scan report for 10.10.10.17
+Host is up (0.00089s latency).
+Not shown: 994 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+5666/tcp open  nrpe
+5900/tcp open  vnc
+9080/tcp open  glrpc
+
+Nmap scan report for 10.10.10.18
+Host is up (0.00086s latency).
+Not shown: 994 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+5666/tcp open  nrpe
+5900/tcp open  vnc
+9080/tcp open  glrpc
+
+Nmap scan report for labpc (10.10.10.19)
+Host is up (0.00044s latency).
+Not shown: 992 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+902/tcp  open  iss-realsecure
+3389/tcp open  ms-wbt-server
+5666/tcp open  nrpe
+5900/tcp open  vnc
+9080/tcp open  glrpc
+
+Nmap scan report for 10.10.10.20
+Host is up (0.00080s latency).
+Not shown: 994 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+5666/tcp open  nrpe
+5900/tcp open  vnc
+9080/tcp open  glrpc
+
+Nmap scan report for 10.10.10.21
+Host is up (0.00079s latency).
+Not shown: 994 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+5666/tcp open  nrpe
+5900/tcp open  vnc
+9080/tcp open  glrpc
+
+Nmap scan report for 10.10.10.22
+Host is up (0.00091s latency).
+Not shown: 994 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+5666/tcp open  nrpe
+5900/tcp open  vnc
+9080/tcp open  glrpc
+
+Nmap scan report for 10.10.10.23
+Host is up (0.00098s latency).
+Not shown: 994 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+5666/tcp open  nrpe
+5900/tcp open  vnc
+9080/tcp open  glrpc
+
+Nmap scan report for 10.10.10.24
+Host is up (0.00086s latency).
+Not shown: 994 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+5666/tcp open  nrpe
+5900/tcp open  vnc
+9080/tcp open  glrpc
+
+Nmap scan report for 10.10.10.25
+Host is up (0.00094s latency).
+Not shown: 994 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+5666/tcp open  nrpe
+5900/tcp open  vnc
+9080/tcp open  glrpc
+
+Nmap scan report for 10.10.10.26
+Host is up (0.0011s latency).
+Not shown: 994 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+5666/tcp open  nrpe
+5900/tcp open  vnc
+9080/tcp open  glrpc
+
+Nmap scan report for 10.10.10.27
+Host is up (0.00080s latency).
+Not shown: 994 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+5666/tcp open  nrpe
+5900/tcp open  vnc
+9080/tcp open  glrpc
+
+Nmap scan report for 10.10.10.28
+Host is up (0.00085s latency).
+Not shown: 994 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+5666/tcp open  nrpe
+5900/tcp open  vnc
+9080/tcp open  glrpc
+
+Nmap scan report for 10.10.10.29
+Host is up (0.00072s latency).
+Not shown: 994 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+5666/tcp open  nrpe
+5900/tcp open  vnc
+9080/tcp open  glrpc
+
+Nmap scan report for 10.10.10.30
+Host is up (0.00076s latency).
+Not shown: 994 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+5666/tcp open  nrpe
+5900/tcp open  vnc
+9080/tcp open  glrpc
+
+Nmap scan report for 10.10.10.31
+Host is up (0.00084s latency).
+Not shown: 994 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+5666/tcp open  nrpe
+5900/tcp open  vnc
+9080/tcp open  glrpc
+
+Nmap scan report for 10.10.10.32
+Host is up (0.00073s latency).
+Not shown: 994 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+5666/tcp open  nrpe
+5900/tcp open  vnc
+9080/tcp open  glrpc
+
+Nmap scan report for 10.10.10.33
+Host is up (0.00075s latency).
+Not shown: 994 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+5666/tcp open  nrpe
+5900/tcp open  vnc
+9080/tcp open  glrpc
+
+Nmap scan report for 10.10.10.34
+Host is up (0.00084s latency).
+Not shown: 994 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+5666/tcp open  nrpe
+5900/tcp open  vnc
+9080/tcp open  glrpc
+
+Nmap scan report for 10.10.10.37
+Host is up (0.00038s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for 10.10.10.38
+Host is up (0.00046s latency).
+Not shown: 994 closed ports
+PORT      STATE SERVICE
+53/tcp    open  domain
+80/tcp    open  http
+443/tcp   open  https
+548/tcp   open  afp
+3333/tcp  open  dec-notes
+20005/tcp open  btx
+
+Nmap scan report for 10.10.10.42
+Host is up (0.00049s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for 10.10.10.55
+Host is up (0.00041s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 10.10.10.56
+Host is up (0.00059s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 10.10.10.57
+Host is up (0.00047s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 10.10.10.58
+Host is up (0.00040s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 10.10.10.59
+Host is up (0.00035s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 10.10.10.60
+Host is up (0.00041s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+Nmap scan report for 10.10.10.70
+Host is up (0.00058s latency).
+Not shown: 990 closed ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+80/tcp   open  http
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+515/tcp  open  printer
+9090/tcp open  zeus-admin
+9100/tcp open  jetdirect
+9101/tcp open  jetdirect
+9102/tcp open  jetdirect
+9103/tcp open  jetdirect
+
+Nmap scan report for 10.10.10.71
+Host is up (0.00040s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for 10.10.10.72
+Host is up (0.00042s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for 10.10.10.73
+Host is up (0.00048s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for 10.10.10.74
+Host is up (0.00039s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for 10.10.10.75
+Host is up (0.00059s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for 10.10.10.76
+Host is up (0.00059s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for 10.10.10.81
+Host is up (0.00026s latency).
+All 1000 scanned ports on 10.10.10.81 are closed
+
+Nmap scan report for 10.10.10.100
+Host is up (0.00039s latency).
+Not shown: 998 closed ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for 10.10.10.124
+Host is up (0.00044s latency).
+Not shown: 992 closed ports
+PORT     STATE SERVICE
+80/tcp   open  http
+139/tcp  open  netbios-ssn
+443/tcp  open  https
+445/tcp  open  microsoft-ds
+3261/tcp open  winshadow
+5000/tcp open  upnp
+5001/tcp open  commplex-link
+5357/tcp open  wsdapi
+
+Nmap scan report for 10.10.10.148
+Host is up (0.00054s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+5900/tcp open  vnc
+
+Nmap scan report for 10.10.10.150
+Host is up (0.00063s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+1026/tcp open  LSA-or-nterm
+
+Nmap scan report for 10.10.10.151
+Host is up (0.00051s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+1026/tcp open  LSA-or-nterm
+
+Nmap scan report for 10.10.10.152
+Host is up (0.00044s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+1026/tcp open  LSA-or-nterm
+
+Nmap scan report for 10.10.10.155
+Host is up (0.00051s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+Nmap scan report for 10.10.10.158
+Host is up (0.00050s latency).
+Not shown: 977 closed ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+22/tcp   open  ssh
+23/tcp   open  telnet
+25/tcp   open  smtp
+53/tcp   open  domain
+80/tcp   open  http
+111/tcp  open  rpcbind
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+512/tcp  open  exec
+513/tcp  open  login
+514/tcp  open  shell
+1099/tcp open  rmiregistry
+1524/tcp open  ingreslock
+2049/tcp open  nfs
+2121/tcp open  ccproxy-ftp
+3306/tcp open  mysql
+5432/tcp open  postgresql
+5900/tcp open  vnc
+6000/tcp open  X11
+6667/tcp open  irc
+8009/tcp open  ajp13
+8180/tcp open  unknown
+
+Nmap scan report for 10.10.10.159
+Host is up (0.00062s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+3306/tcp open  mysql
+
+Nmap scan report for 10.10.10.161
+Host is up (0.0038s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for 10.10.10.162
+Host is up (0.0023s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for 10.10.10.163
+Host is up (0.0052s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for 10.10.10.166
+Host is up (0.00059s latency).
+Not shown: 997 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+25/tcp open  smtp
+80/tcp open  http
+
+Nmap done: 256 IP addresses (61 hosts up) scanned in 232.44 seconds
